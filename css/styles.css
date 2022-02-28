@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(128, 50, 66, 1) 100%
+  );
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  margin-left: 2.3rem;
+  margin-top: 0.6rem;
+}
+.header h2 {
+  margin: 0;
+}
+/* Form Wrapper*/
+.wrapper {
+  background-color: #fff;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  border-radius: 0.65rem;
+  width: 500px;
+}
+/* Form Styles*/
+.form {
+  padding: 1rem 2rem;
+}
+
+.form-controls {
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+}
+
+.form-controls label {
+  display: inline-block; /* for the margin-bottom to work*/
+  margin-bottom: 0.3rem;
+}
+
+.form-controls input {
+  font-size: 18px;
+  border: 2px solid lightgray;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-controls input::placeholder {
+  opacity: 0.3;
+}
+
+/* Form Button*/
+button {
+  color: #fff;
+  font-size: 18px;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  padding: 0.75rem 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(3, 94, 94);
+  color: #fff;
+}
